@@ -26,5 +26,208 @@
         </div>
       </div>
     </header>
+    <!-- main section -->
+    <main>
+      <section class="lg:px-12 flex flex-col md:flex-row lg:flex-row px-12">
+        <!-- product deatils -->
+
+        <div
+          class="product-details mt-6 lg:w-[70%] w-[100%] md:w-[70%] grid sm:grid-cols-1 md:grid-cols-2 lg-grid-cols-3 gap-6"
+        >
+          <!--1 Traiangle start-->
+          <div class="card card-compact w-full bg-base-100 shadow-xl">
+            <!-- triangle image -->
+            <figure>
+              <img class="w-auto h-40 mt-8"  src="/images/triangle.png" alt="Shoes" />
+            </figure>
+            <div class="card-body text-center ">
+              <!-- triangle name -->
+              <h2 id="triangle-name" class="text-2xl font-bold mt-6" class="card-title justify-center" >Triangle</h2>
+              <!-- Area of triagle-->
+              <p class="text-xl">Area (A) = <span>0.5</span> x <span id="triagle-base">b</span> x <span id="triangle-height">h</span></p>
+              <!-- input field -->
+              <div class="m-2">
+                <input id="triangle-base-input" class="text-xl p-2 w-[25%] outline-none" type="text" name="" id="" placeholder="b">
+               <span class="text-xl p-2">cm </span>
+               <input id="triangle-height-input" class="text-xl p-2 w-[25%] outline-none" type="text" name="" id="" placeholder="h">
+               <span class="text-xl p-2">cm </span>
+              </div>
+              <div class="card-actions justify-end ">
+                <!-- Triangle button -->
+                <button id="triangle-calculation-button" class="btn btn-primary w-full">
+                  Calculate
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!-- 2**** Rectangle start-->
+          <div class="card card-compact w-full bg-base-100 shadow-xl">
+            <!-- Rectangle image -->
+            <figure>
+              <img class="w-auto h-40 mt-8"  src="/images/rectangle.png" alt="Shoes" />
+            </figure>
+            <div class="card-body text-center">
+              <!-- Rectangle name -->
+              <h2 id="rectangle-name" class="text-2xl font-bold mt-6" class="card-title justify-center" >Rectangle</h2>
+              <!-- Area of Rectangle-->
+              <p class="text-xl">Area (A) = <span id="rectangle-width">w</span> x <span id="rectangle-length">l</span></p>
+              <!-- input field -->
+              <div class="m-2">
+                <input itemid="rectangle-width-input" class="text-xl p-2 w-[25%] outline-none" type="text" name="" id="" placeholder="b">
+               <span class="text-xl p-2">cm </span>
+               <input id="rectangle-length-input" class="text-xl p-2 w-[25%] outline-none" type="text" name="" id="" placeholder="h">
+               <span class="text-xl p-2">cm </span>
+              </div>
+              <div class="card-actions justify-end ">
+                <!-- Rectangle button -->
+                <button id="rectangle-calculation-button" class="btn btn-primary w-full">
+                  Calculate
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!--3 Parallelogram start-->
+          <div class="card card-compact w-full bg-base-100 shadow-xl">
+            <!--Parallelogram image -->
+            <figure>
+              <img class="w-auto h-40 mt-8"  src="/images/parallelogram.png" alt="Shoes" />
+            </figure>
+            <div class="card-body text-center">
+              <!-- Parallelogram name -->
+              <h2 id="parallelogram-name" class="text-2xl font-bold mt-6" class="card-title justify-center" >Parallelogram</h2>
+              <!-- Area of Parallelogram-->
+              <p class="text-xl">Area (A) = <span id="parallelogram-base">b</span> x <span id="parallelogram-height">h</span></p>
+              <p class="text-xl">b = <span>10</span>cm, h = <span>12</span>cm</p>
+              <!-- input field -->
+              <div class="m-2">
+                <input it="parallelogram-base-input" class="text-xl p-2 w-[25%] outline-none" type="text" name="" id="" placeholder="b">
+               <span class="text-xl p-2">cm </span>
+               <input id="parallelogram-height-input" class="text-xl p-2 w-[25%] outline-none" type="text" name="" id="" placeholder="h">
+               <span class="text-xl p-2">cm </span>
+              </div>
+              <div class="card-actions justify-end ">
+                <!-- Parallelogram button -->
+                <button id="parallelogram-calculation-button" class="btn btn-primary w-full">
+                  Calculate
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!-- 4 Rhombus start-->
+          <div class="card card-compact w-full bg-base-100 shadow-xl">
+            <!-- Rhombus image -->
+            <figure>
+              <img class="w-auto h-40 mt-8"  src="/images/rhombus.png" alt="Shoes" />
+            </figure>
+            <div class="card-body text-center">
+              <!-- Rhombus name -->
+              <h2 id="rhombus-name" class="text-2xl font-bold mt-6" class="card-title justify-center" >Rhombus</h2>
+              <!-- Area of Rhombus-->
+              <p class="text-xl">Area (A) = <span>0.5</span> x d<sub>1</sub> x d<sub>2</sub> </p>
+              <p class="text-xl">d<sub>1</sub> = <span id="rhombus-d1-preinput">16</span>cm, d<sub>2</sub> = <span id="rhombus-d2-preinput">8</span>cm</p>
+              <!-- input field -->
+              <div class="m-2">
+                <input id="rhombus-d1-input" class="text-xl p-2 w-[25%] outline-none" type="text" name="" id="" placeholder="d1">
+               <span class="text-xl p-2">cm </span>
+               <input id="rhombus-d2-input" class="text-xl p-2 w-[25%] outline-none" type="text" name="" id="" placeholder="d2">
+               <span class="text-xl p-2">cm </span>
+              </div>
+              <div class="card-actions justify-end ">
+                <!-- Rhombus button -->
+                <button id="rhombus-calculation-button" class="btn btn-primary w-full">
+                  Calculate
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!-- 5 ****** Pentagon start-->
+          <div class="card card-compact w-full bg-base-100 shadow-xl">
+            <!-- Pentagon image -->
+            <figure>
+              <img class="w-auto h-40 mt-8"  src="/images/pentagon.png" alt="Shoes" />
+            </figure>
+            <div class="card-body text-center">
+              <!-- Pentagon name -->
+              <h2 id="pentagon-name" class="text-2xl font-bold mt-6" class="card-title justify-center" >Pentagon</h2>
+              <!-- Area of Pentagon-->
+              <p class="text-xl">Area (A) = <span>0.5</span> x <span>p</span> x <span>b</span></p>
+              <p class="text-xl">p = <span id="pentagon-p-distance-preinput">6</span>cm, b = <span id="pentagon-base-preinput">10</span>cm</p>
+              <!-- input field -->
+              <div class="m-2">
+                <input id="pentagon-p-distance-input" class="text-xl p-2 w-[25%] outline-none" type="text" name="" id="" placeholder="p">
+               <span class="text-xl p-2">cm </span>
+               <input id="pentagon-base-input" class="text-xl p-2 w-[25%] outline-none" type="text" name="" id="" placeholder="b">
+               <span class="text-xl p-2">cm </span>
+              </div>
+              <div class="card-actions justify-end ">
+                <!-- Pentagon button -->
+                <button id="pentagon-calculation-button" class="btn btn-primary w-full">
+                  Calculate
+                </button>
+              </div>
+            </div>
+          </div>
+          <!--Pentagon end -->
+          <!-- 6 Ellipse start-->
+          <div class="card card-compact w-full bg-base-100 shadow-xl">
+            <!-- Ellipse image -->
+            <figure>
+              <img class="w-auto h-40 mt-8"  src="/images/ellipse.png" alt="Shoes" />
+            </figure>
+            <div class="card-body text-center">
+              <!-- Ellipse name --> 
+              <h2 id="ellipse-name" class="text-2xl font-bold mt-6" class="card-title justify-center" >Ellipse</h2>
+              <!-- Area of Ellipse-->
+              <p class="text-xl">Area (A) = <span>pi</span> x <span>a</span> x <span>b</span></p>
+              <p class="text-xl">a = <span id="ellipse-major-axix-length-preinput">10</span>cm, b = <span id="ellipse-minor-axix-length-preinput">4</span>cm</p>
+              <!-- input field -->
+              <div class="m-2">
+                <input id="ellipse-major-axix-length-input" class="text-xl p-2 w-[25%] outline-none" type="text" name="" id="" placeholder="a">
+               <span class="text-xl p-2">cm </span>
+               <input id="ellipse-minor-axix-length-input" class="text-xl p-2 w-[25%] outline-none" type="text" name="" id="" placeholder="b">
+               <span class="text-xl p-2">cm </span>
+              </div>
+              <div class="card-actions justify-end ">
+                <!-- Ellipse button -->
+                <button id="ellipse-calculation-button" class="btn btn-primary w-full">
+                  Calculate
+                </button>
+              </div>
+            </div>
+          </div>
+          <!--Ellipse end -->
+          </div>
+          <!-- Calculation atble -->
+<div class="card-details w-full md:w-[30%] lg:w-[30%] mx-auto">
+          <h1 class="text-2xl text-center font-bold underline mt-8 mb-8">
+            Area Calculation
+          </h1>
+          <!-- Table Data -->
+          <div class="overflow-x-auto">
+            <table class="table w-full">
+              <!-- head -->
+              <thead>
+                <tr>
+                  <!-- <th>No</th>
+                  <th>Name</th>
+                  <th>Price</th>
+                  <th>Total</th>
+                  <th>Total</th> -->
+                </tr>
+              </thead>
+              <tbody id="table-container">
+                <!-- row 1 -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+          </section>
+    </main>
+
+    <script src="js/index.js"></script>
   </body>
 </html>
