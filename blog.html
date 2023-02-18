@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Geometry genius assignment</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./img/rhombus.png" type="image/x-icon" />
+
+    <!-- daisyui tailwind library -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+
+  <body>
+    <!-- nav bar -->
+    <header class="shadow-2xl mx-8">
+      <div class="navbar bg-base-100 px-6">
+        <div class="flex-1">
+          <a class="normal-case text-xl text-left"
+            >Interactive <br />
+            Geometry Genius</a
+          >
+        </div>
+        <div class="flex-none">
+          <a class="btn btn-primary rounded-1" id="indexId" href="./index.html"
+            >Index</a
+          >
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="grid-cols-4 gap-2 px-8">
+          <!-- Question-1 -->
+          <div class="collapse mb-6">
+            <input type="checkbox" class="peer" />
+            <div
+              class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content text-2xl font-semibold"
+            >
+              What is DOM and what is the purpose of DOM?
+            </div>
+            <div
+              class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
+            >
+              <p class="text-xl font-normal">
+                DOM stands for Document Object Model. It is an important part of
+                making websites Interactive. It is an interface that allows a
+                programming language to manipulate the content, structure and
+                style of a website. <br />
+                Main purpose of DOM it allows programs and scripts to
+                dynamically access and update the content, structure, and style
+                of a document.
+              </p>
+            </div>
+          </div>
+          <!-- Question-2 -->
+          <div class="collapse mb-6">
+            <input type="checkbox" class="peer" />
+            <div
+              class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content text-2xl font-semibold"
+            >
+              How will you select HTML elements using DOM? Name the DOM methods.
+            </div>
+            <div
+              class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
+            >
+              <p class="text-xl font-normal">
+                There are 5 ways in which you can select elements in a DOM using
+                selectors.
+              </p>
+              <ul>
+                <li id="text-2xl font-semibold">1. getElementsByTagName()</li>
+                <li id="text-2xl font-semibold">2. getElementsByClassName()</li>
+                <li id="text-2xl font-semibold">3. getElementById()</li>
+                <li id="text-2xl font-semibold">4. gquerySelector()</li>
+                <li id="text-2xl font-semibold">5. querySelectorAll()</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Question-3 -->
+          <div class="collapse mb-6">
+            <input type="checkbox" class="peer" />
+            <div
+              class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content text-2xl font-semibold"
+            >
+              What is event bubble?
+            </div>
+            <div
+              class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
+            >
+              <p class="text-xl font-normal">
+                Event bubble is a concept in the DOM. It happens when an element
+                receives an event, and that event bubbles up (or we can say is
+                propagated) to its parent and ancestor elements in the DOM tree
+                until it gets to the root element.
+              </p>
+            </div>
+          </div>
+          <!-- Question-4 -->
+          <div class="collapse mb-6">
+            <input type="checkbox" class="peer" />
+            <div
+              class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content text-2xl font-semibold"
+            >
+              What is a callback function and why will you use it?
+            </div>
+            <div
+              class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
+            >
+              <p class="text-xl font-normal">
+                A callback is a function which is to be executed after another
+                function has finished execution. <br />
+
+                We will use callback function because callback function ensure
+                that the function will not run before the task is completed but
+                will run right after the task is completed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

@@ -84,7 +84,7 @@ document
     preD2.innerText = d2;
 
     // Area of rhombus
-    const result = d1 * d2;
+    const result = 0.5 * d1 * d2;
     const area = result.toFixed(2);
     if (!isNaN(area)) {
       // display arear data
@@ -148,3 +148,9 @@ function displayAreaData(serialNo, polygon, area) {
     `;
   container.appendChild(tr);
 }
+
+//****************** *
+// redirect to another web page
+document.getElementById('blogId').addEventListener('click',function(){
+    window.location.href="blog.html"
+})
