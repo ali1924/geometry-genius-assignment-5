@@ -6,7 +6,7 @@ function getElementByFieldID(fieldID) {
   if (isNaN(fieldValue)) {
     // return fieldValue;
     alert("Please Input valid number!!");
-  } else if (fieldValue < 0) {
+  } else if (fieldValue <= 0) {
     alert("Please Input valid number!!");
   } else {
     // alert('Please Input Number');
@@ -148,9 +148,7 @@ function displayAreaData(serialNo, polygon, area) {
     `;
   container.appendChild(tr);
 }
-
-//****************** *
 // redirect to another web page
-document.getElementById('blogId').addEventListener('click',function(){
-    window.location.href="blog.html"
-})
+document.getElementById("blogId").addEventListener("click", function () {
+  window.location.href = "blog.html";
+});
